@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Joy Ride - Registration</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="icon" href="images/favicon.ico">
+    <script src="js/javascript.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+</head>
+
+<body>
+    
+<div class="container-fluid">
+           <!---------------------------- banner -------------------------------------->
+    <div class="large-img">
+        <div id="tint"><div class="large-img-caption">Joy Ride</div></div>
+    <img src="images/banner.jpeg" style="width:1233px;height:400px;">
+    </div>
+
+    <!---------------------------- Nav Bar -------------------------------------->
+
+<section>
+    <div class="jumbotron" style="margin-bottom: 0px;">
+        <h1>Joy Ride Custom Cars</h1>
+        <p>Driving made fun again</p>
+    
+        
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+          <a class="navbar-brand" href="#top"><img src="images/logo.jpg" style="width: 80px; height: 80px;"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+            
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"> 
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item"> 
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item"> 
+                        <a class="nav-link" href="registration.html">Register</a>
+                    </li>
+                    <li class="nav-item"> 
+                        <a class="nav-link" href="references.html">References</a>
+                    </li>
+
+                        <!---------------------------- Drop Down Menu -------------------------------------->
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Other Sites
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" target="_blank" href="https://www.mercedes-benz.ca/en/home" onclick="$('#collapseOne').collapse('show');">Mercedes - Canada</a>
+                              <a class="dropdown-item" target="_blank" href="https://www.bmw.ca/en/home.html" onclick="$('#collapseOne').collapse('show');">BMW - Canada</a>
+                              <a class="dropdown-item" target="_blank" href="https://www.audi.ca/ca/web/en.html" onclick="$('#collapseOne').collapse('show');">Audi - Canada</a>
+                        </div>
+                    </li>     
+                </ul>
+            </div>
+        </nav>
+    </div>
+</section>
+                             <!---------------------------- Parallax -------------------------------------->
+
+            <div class="parallax" id="para"></div>
+
+                            <!---------------------------- Form -------------------------------------->
+
+    <section>
+            <form>
+                  <div class="form">
+                  <div class="row">
+                      <div class="col-8">
+                          <div class="form">
+                              <label for="email">Email</label><br>
+                              <input type="text" id="email" class="textbox" placeholder="Email" required/>
+                          </div>
+                          
+                          <div class="form">
+                              <label for="password">Password</label><br>
+                              <input type="password" id="password" class="textbox" placeholder="Password" required/>
+                          </div>
+                          
+                          <div class="form">
+                              <label for="confirm">Confirm Password</label><br>
+                              <input type="password" id="confirm" class="textbox" placeholder="Confirm Password" required/>
+                          </div>
+                          <br><br>
+                          <button type="submit" id="submit" onclick="checkEmail(); checkPassword();">Submit</button>
+                      </div>
+                  </div>
+                  </div>
+            </form>
+    </section>
+    
+</div>
+    
+        <!---------------------------- JQuery stuff -------------------------------------->
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
